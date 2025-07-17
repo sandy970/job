@@ -1,0 +1,43 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+beautifulsoup4==4.12.2
+aiohttp==3.9.1
+aiosqlite==0.19.0
+requests==2.31.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Optional dependencies for enhanced functionality
+# Uncomment these if you want additional features
+
+# For better HTML parsing
+lxml==4.9.3
+
+# For PostgreSQL support (production)
+# asyncpg==0.29.0
+# psycopg2-binary==2.9.7
+
+# For MySQL support (production)
+# aiomysql==0.2.0
+# PyMySQL==1.1.0
+
+# For MongoDB support (production)
+# motor==3.3.2
+
+# For more advanced scraping (alternative to aiohttp)
+# httpx==0.25.2
+
+# For better error handling and monitoring
+# sentry-sdk[fastapi]==1.38.0
+
+# For rate limiting
+# slowapi==0.1.9
+
+# For caching
+# redis==5.0.1
+# aioredis==2.0.1
+
+# For testing
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# httpx==0.25.2
